@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export const Navbar = () => {
    return(
@@ -22,6 +23,14 @@ export const Navbar = () => {
             <Link to="/blog" className="text-base xl:text-lg 2xl:text-xl">Blog</Link>
             
          </div>
+
+         {/*Hamburger Menu */}
+
+         <div className="flex md:hidden">
+            <RxHamburgerMenu />
+         </div>
+
+
       </div>
    )
 }

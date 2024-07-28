@@ -1,10 +1,12 @@
+import { Hero } from "../components/Hero"
 
 export const Home = () => {
    return (
-      <div className="bg-orange-900 flex h-96">
-
-         Home Page SECTION
+      <div className="h-auto">
          
+         <Hero />
+
+
       </div>
    )
 }
